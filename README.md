@@ -25,7 +25,7 @@ You can jump straight to the [AstroNet walkthrough](exoplanet-ml/astronet/README
 
 ## Detailed Environemt Setup  
 
-Find a detailed step by step environment setup for getting all the packages built and the unit tests passing [here](caitlynlee/exoplanet-ml/blob/master/EnvironmentSetup.md). 
+Find a detailed step by step environment setup for getting all the packages built and the unit tests passing [here](EnvironmentSetup.md). 
 
 ## Run Unit Tests
 
