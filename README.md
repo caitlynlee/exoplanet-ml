@@ -2,9 +2,9 @@
 
 Machine learning models and utilities for exoplanet science.
 
-## Code Author
+## Original code
 
-Chris Shallue: [@cshallue](https://github.com/cshallue)
+This repo forked from https://github.com/google-research/exoplanet-ml
 
 ## Walkthrough
 
@@ -35,17 +35,3 @@ Verify that all dependencies are satisfied by running the unit tests:
 cd exoplanet-ml  # Bazel must run from a directory with a WORKSPACE file
 bazel test astronet/... astrowavenet/... light_curve/... tf_util/... third_party/...
 ```
-
-# Citation
-
-If you find this code useful, please cite our paper:
-
-Shallue, C. J., & Vanderburg, A. (2018). Identifying Exoplanets with Deep
-Learning: A Five-planet Resonant Chain around Kepler-80 and an Eighth Planet
-around Kepler-90. *The Astronomical Journal*, 155(2), 94.
-
-Full text available at [*The Astronomical Journal*](http://iopscience.iop.org/article/10.3847/1538-3881/aa9e09/meta).
-
-# Disclaimer
-
-This is not an official Google product.
