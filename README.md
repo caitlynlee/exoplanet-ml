@@ -10,40 +10,6 @@ Chris Shallue: [@cshallue](https://github.com/cshallue)
 
 You can jump straight to the [AstroNet walkthrough](exoplanet-ml/astronet/README.md#walkthrough).
 
-Otherwise, click through to the desired directory as outlined below.
-
-## Directories
-
-[astronet/](exoplanet-ml/astronet/)
-
-* A neural network for identifying exoplanets in light curves. Contains code for:
-  * Downloading and preprocessing Kepler light curves.
-  * Building different types of neural network classification models.
-  * Training and evaluating a new model.
-  * Using a trained model to generate new predictions.
-
-[astrowavenet/](exoplanet-ml/astrowavenet/)
-
-* A generative model for light curves.
-
-[light_curve/](exoplanet-ml/light_curve)
-
-* Utilities for operating on light curves. These include:
-  * Reading Kepler data from `.fits` files.
-  * Applying a median filter to smooth and normalize a light curve.
-  * Phase folding, splitting, removing periodic events, etc.
-* [light_curve/fast_ops/](exoplanet-ml/light_curve/fast_ops) contains optimized
-C++ light curve operations.
-
-[tf_util/](exoplanet-ml/tf_util)
-
-* Shared TensorFlow utilities.
-
-[third_party/](exoplanet-ml/third_party/)
-
-* Utilities derived from third party code.
-
-
 # Setup
 
 ## Required Packages
@@ -56,6 +22,10 @@ C++ light curve operations.
 * **PyDl** ([instructions](https://pypi.python.org/pypi/pydl))
 * **Bazel** ([instructions](https://docs.bazel.build/versions/master/install.html))
 * **Abseil Python Common Libraries** ([instructions](https://github.com/abseil/abseil-py))
+
+## Detailed Environemt Setup  
+
+Find a detailed step by step environment setup for getting all the packages built and the unit tests passing [here](caitlynlee/exoplanet-ml/blob/master/EnvironmentSetup.md). 
 
 ## Run Unit Tests
 
